@@ -1,9 +1,10 @@
 import React from 'react'
 import HeroComponent from './../components/HeroComponent'
-import BannerComponent from './../components/BannerComponent';
-import { Link } from 'react-router-dom';
-import ServicesComponent from './../components/ServicesComponent';
-import FeaturedRooms from './../components/FeaturedRooms';
+import BannerComponent from './../components/BannerComponent'
+import { Link } from 'react-router-dom'
+import ServicesComponent from './../components/ServicesComponent'
+import FeaturedRooms from './../components/FeaturedRooms'
+import Button from '../components/StyledHeroComponent'
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             </HeroComponent>
             <ServicesComponent />
             <FeaturedRooms />
+            <Button>Hello</Button>
         </React.Fragment>
     )
 }
