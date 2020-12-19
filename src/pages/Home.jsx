@@ -10,8 +10,8 @@ const Home = () => {
     return (
         <React.Fragment>
             <HeroComponent>
-                <BannerComponent title='luxurious rooms' subtitle='deluxe rooms starting at $299'>
-                    <Link to='/rooms' className='btn-primary'>our rooms</Link>
+                <BannerComponent title='lakay se lakay' subtitle='chambre - appartement - maison pour tous'>
+                    <Link to='/rooms' className='btn-primary'>notre liste</Link>
                 </BannerComponent>
             </HeroComponent>
             <ServicesComponent />
