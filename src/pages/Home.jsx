@@ -16,7 +16,6 @@ const Home = () => {
             </HeroComponent>
             <ServicesComponent />
             <FeaturedRooms />
-            <Button>Hello</Button>
         </React.Fragment>
     )
 }

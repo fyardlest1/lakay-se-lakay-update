@@ -11,6 +11,13 @@
 # production
 /build
 
+# contentful
+.Contentful.js
+/Contentful.js
+
+# environment
+.env.development
+
 # misc
 .DS_Store
 .env.local
