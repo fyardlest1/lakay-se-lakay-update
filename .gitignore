@@ -12,8 +12,8 @@
 /build
 
 # contentful
-.Contentful.js
-/Contentful.js
+#.Contentful.js
+#/Contentful.js
 
 # environment
 .env.development
