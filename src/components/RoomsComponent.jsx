@@ -11,7 +11,7 @@ const RoomsComponent = ({ room }) => {
                 <img src={images[0] || defaultImage} alt="single room" />
                 <div className="price-top">
                     <h6>${price}</h6>
-                    <p>per night</p>
+                    <p>par nuit</p>
                 </div>
                 <Link to={`/rooms/${slug}`} className='btn-primary room-link'>Features</Link>
             </div>

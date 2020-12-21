@@ -12,10 +12,10 @@ function RoomContainer({context}) {
     }
 
     return (
-        <>
+        <React.Fragment>
             <RoomsFilter rooms={rooms} />
             <RoomsList rooms={sortedRooms} />
-        </>
+        </React.Fragment>
     )
 }
 

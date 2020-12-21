@@ -7,12 +7,12 @@ class ServicesComponent extends Component {
         services: [
             {
                 icon: <FaCocktail />,
-                title: 'free coccktails',
+                title: 'cocktails gratuits',
                 info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, corporis!'
             },
             {
                 icon: <FaHiking />,
-                title: 'endless hicking',
+                title: 'randonnée',
                 info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, corporis!'
             },
             {
@@ -22,7 +22,7 @@ class ServicesComponent extends Component {
             },
             {
                 icon: <FaBeer />,
-                title: 'strongest beer',
+                title: 'bière la plus forte',
                 info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, corporis!'
             },
         ]
